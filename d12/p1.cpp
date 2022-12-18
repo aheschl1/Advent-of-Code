@@ -15,7 +15,7 @@ typedef std::vector<std::vector<char>> vvc;
 using namespace std;
 
 bool accesible(char start, char destination){
-    return start == (destination - 1) || start > destination || start == destination;
+    return start == (destination - 1) || start > destination|| start == destination;
 }
 
 pair<int, int> min_distance(map<int, int> &distances, set<int> &ignore){
@@ -92,7 +92,7 @@ void solve(){
         }
         height_map.push_back(temp);
     }
-    //fill adjacency matrix
+    //fill adjacency list
     for(int r = 0; r < height_map.size(); r++){
         for(int c = 0; c < height_map[r].size(); c++){
             int id = c + r*(height_map[r].size());

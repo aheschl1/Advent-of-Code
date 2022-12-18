@@ -28,8 +28,8 @@ void draw_pixel(vvc &matrix, int pixel, int register_val){
     while(column >= 40){
         column -= 40;
     }
-    cout << column << endl;
-    char draw = '.';
+    char draw = '.';    cout << column << endl;
+
     if(register_val-1 == column || register_val == column || register_val+1 == column){
         draw = '#';
     }
