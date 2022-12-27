@@ -1,6 +1,6 @@
 import functools
 
-f = open("C:\\Users\\ajhes\\Documents\\Advent of Code\\d13\\in.txt", "r").read().strip()
+f = open("in.txt", "r").read().strip()
 
 #1 true, 0 same -1 false
 def validate(p1,p2):
@@ -48,7 +48,3 @@ packets.append([[2]])
 packets.sort(key=functools.cmp_to_key(validate))
 
 print((packets.index([[6]]) + 1) * (packets.index([[2]]) + 1))
-"""
-if validate(p1, p2) == 1:
-        ans += count
-"""
