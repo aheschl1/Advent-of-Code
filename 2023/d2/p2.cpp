@@ -6,7 +6,7 @@
 #include<algorithm>
 #include<queue>
 #include<cmath>
-#include <sstream>      // std::stringstream
+#include<sstream>
 
 typedef long long int ll;
 typedef unsigned long long ull;
