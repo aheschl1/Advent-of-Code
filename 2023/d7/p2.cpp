@@ -13,7 +13,9 @@ typedef unsigned long long ull;
 
 using namespace std;
 map<char, int> ordering;
-
+/**
+ * Ignore the duplicated code loll
+*/
 int typea(string &ocards){
     unordered_set<char> unique(ocards.begin(), ocards.end());
     if(unique.size()==1){
