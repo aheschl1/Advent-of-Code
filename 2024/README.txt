@@ -1,0 +1,1 @@
+mostly for learning rust
