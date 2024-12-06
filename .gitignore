@@ -1,3 +1,6 @@
 /.vscode
-/template.cpp
+/template.*
 /d15/p2.cpp
+target
+*.lock
+*.toml
